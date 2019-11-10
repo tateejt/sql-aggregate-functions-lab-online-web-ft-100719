@@ -13,7 +13,7 @@ def average_student_gpa
 end
 
 def total_tardies_for_all_students
-  "Select Sum(gpa) From students"
+  "Select Sum(gpa) From students WHERE "
 end
 
 def average_gpa_for_9th_grade
